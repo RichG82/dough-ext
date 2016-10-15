@@ -1,0 +1,31 @@
+[ERR!] cwd  : C:\dev\dough
+[ERR!] os   : Windows_NT 6.3.9600
+[ERR!] argv : "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\rgrenwick\\AppData\\Roaming\\npm\\node_modules\\tsd\\build\\cli.js" "init"
+[ERR!] node : v4.5.0
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: cannot overwrite file C:\dev\dough\tsd.json
+[ERR!] CODE : undefined
+[ERR!] cannot overwrite file C:\dev\dough\tsd.json
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+VError: cannot overwrite file C:\dev\dough\tsd.json
+    at C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\build\tsd\logic\ConfigIO.js:22:27
+    at tryCatch1 (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\util.js:63:19)
+    at Promise$_callHandler [as _callHandler] (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:695:13)
+    at Promise$_settlePromiseFromHandler [as _settlePromiseFromHandler] (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:711:18)
+    at Promise$_settlePromiseAt [as _settlePromiseAt] (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:868:14)
+    at Promise$_settlePromises [as _settlePromises] (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:1006:14)
+    at Async$_consumeFunctionBuffer [as _consumeFunctionBuffer] (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:74:12)
+    at Async$consumeFunctionBuffer (C:\Users\rgrenwick\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:37:14)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{"jquery/jquery.d.ts":{"commit":"3f67905cbef90e9c86cce72e24e4cdaf165fcc0e"}}}
+
+[ERR!] .tsdrc could not be retrieved
+
+[ERR!] Please include the following file with any support request:
+    C:\dev\dough\tsd-debug.log
+
