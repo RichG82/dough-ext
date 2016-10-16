@@ -7,7 +7,6 @@ require("expose?DoughExt!DoughExt");
 import DoughExt from "./DoughExt";
 
 $(document).ready(function () {
-    debugger;
     var ext: DoughExt = new DoughExt();
     ext.doWork();
     ext.setTimer();
